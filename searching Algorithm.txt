@@ -1,0 +1,82 @@
+
+searching algorithm
+
+1. Linear Search– Iterates through each element in the list until the target is found.
+2. Binary Search Variants (Divide & Conquer)
+Binary Search – Searches in a sorted array by repeatedly dividing the search space in half.
+Exponential Search – Finds range using exponential jumps before applying binary search.
+Ternary Search – Similar to binary search but divides the array into three parts.
+Jump Search – Jumps ahead in steps and then performs linear search in the identified block.
+Fibonacci Search – Uses Fibonacci numbers to divide the search range.
+Interpolation Search – Uses interpolation (a mathematical estimation) to find the probable location in sorted data.
+3. Hashing-Based Search
+Direct Addressing – Uses direct array indexing for searching.
+Hash Table Search – Uses a hash function to map keys to an index for constant-time search.
+Perfect Hashing – Guarantees no collisions for fixed data.
+4. Tree-Based Search Algorithms
+Binary Search Tree (BST) Search – Searches for an element in a BST.
+AVL Tree Search – A self-balancing BST that provides faster searches.
+Red-Black Tree Search – Another self-balancing BST with guaranteed O(log n) search time.
+B-Tree Search – Used in databases for searching large datasets efficiently.
+Trie (Prefix Tree) Search – Efficient for searching words or prefixes in dictionaries.
+Segment Tree Search – Used for range queries and searching in intervals.
+5. Graph Search Algorithms
+Breadth-First Search (BFS) – Explores all neighbors before moving deeper (best for shortest path).
+Depth-First Search (DFS) – Explores as deep as possible before backtracking.
+A Search* – Uses heuristics for the shortest path search.
+Dijkstra’s Algorithm – Finds the shortest path in weighted graphs.
+Bellman-Ford Algorithm – Finds the shortest paths, even with negative weights.
+Floyd-Warshall Algorithm – Computes all-pairs shortest paths.
+Bidirectional Search – Searches from both the start and goal simultaneously.
+6. Pattern Matching & Text Searching
+Brute Force Search – Compares character by character in text.
+Knuth-Morris-Pratt (KMP) Algorithm – Uses preprocessing to optimize pattern matching.
+Rabin-Karp Algorithm – Uses hashing to match substrings efficiently.
+Boyer-Moore Algorithm – Searches from right to left for faster skipping.
+Aho-Corasick Algorithm – Efficient for searching multiple patterns simultaneously.
+Z-Algorithm – Computes Z-array for fast pattern matching.
+7. Specialized Search Algorithms
+Quantum Search (Grover's Algorithm) – Quantum computing-based search (O(?n)).
+8. Approximate & Probabilistic Search Algorithms
+Bloom Filters – A probabilistic data structure for fast membership checking with false positives.
+Count-Min Sketch – Used for approximate frequency counting in data streams.
+SimHash – Used for similarity detection in large datasets.
+Locality-Sensitive Hashing (LSH) – Finds approximate nearest neighbors in high-dimensional data.
+Monte Carlo Search – Uses randomness to explore search spaces efficiently.
+Las Vegas Search Algorithm – Guarantees correct results but with probabilistic execution time.
+9. Metaheuristic Search Algorithms (Used in AI & Optimization)
+Genetic Algorithm (GA) – Uses evolutionary techniques for search and optimization.
+Simulated Annealing – Mimics metal cooling for optimization.
+Tabu Search – Avoids previously visited solutions to escape local optima.
+Particle Swarm Optimization (PSO) – Simulates swarm intelligence for optimization.
+Ant Colony Optimization (ACO) – Mimics ants’ pheromone trails for search.
+Hill Climbing Search – Greedy local search algorithm for optimization.
+Beam Search – A variation of BFS used in AI and NLP.
+Iterated Local Search (ILS) – Repeatedly applies local search methods.
+Grasp (Greedy Randomized Adaptive Search Procedure) – Uses greedy algorithms with randomness.
+10. Parallel & Distributed Searching
+Parallel Breadth-First Search (PBFS) – BFS optimized for parallel execution.
+MapReduce Search – Distributed searching over massive datasets.
+CUDA Accelerated Search – GPU-based parallel searching for large datasets.
+Distributed Hash Table (DHT) Search – Used in P2P networks for distributed data lookup.
+Parallel A Search (PRA)** – Optimized A* search using parallelism.
+11. Specialized Index-Based Search
+B+ Tree Search – Optimized for databases and file systems.
+R-Tree Search – Efficient for spatial searching (used in GIS applications).
+KD-Tree Search – Used in nearest neighbor searches in multi-dimensional spaces.
+QuadTree Search – Used for partitioning 2D space in graphics and simulations.
+Octree Search – 3D extension of QuadTree, used in 3D graphics.
+Van Emde Boas Tree Search – A tree-based search for small-range integers.
+Skip Graph Search – Similar to skip lists but with additional structure for fast lookups.
+12. Miscellaneous Search Algorithms
+Bitwise Search – Uses bit manipulation to search efficiently.
+Jump Point Search (JPS) – Optimized for grid-based pathfinding.
+Fractional Cascading – Speed-up technique for searching across multiple sorted arrays.
+Eytzinger Search (Binary Heap Order) – A cache-friendly binary search technique.
+Tango Tree Search – A dynamic BST with fast access time.
+Fusion Tree Search – Faster searching in B-trees using bitwise operations.
+13. AI & Machine Learning-Based Search
+Alpha-Beta Pruning – Optimized Minimax search in game AI.
+Monte Carlo Tree Search (MCTS) – Used in game AI like AlphaGo.
+Deep Q-Network Search (DQN) – Reinforcement learning-based search.
+Neural Network-Based Search (ANN) – Used for high-dimensional similarity searches.
