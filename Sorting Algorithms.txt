@@ -1,0 +1,50 @@
+
+Sorting Algorithms
+
+1. Simple Sorting Algorithms
+These are straightforward and easy to understand but often inefficient for large datasets.
+Bubble Sort – Repeatedly swaps adjacent elements if they are in the wrong order.
+Selection Sort – Finds the smallest element and swaps it with the first unsorted element.
+Insertion Sort – Builds a sorted list by inserting elements at the correct position.
+Gnome Sort – Similar to insertion sort but swaps elements like a gnome arranging flowers.
+Cocktail Shaker Sort (Bidirectional Bubble Sort) – A variation of bubble sort that sorts in both directions.
+2. Efficient Divide & Conquer Sorting Algorithms
+These algorithms work by breaking down the problem into smaller subproblems.
+Merge Sort – Divides the array into halves, sorts each half, and merges them.
+Quick Sort – Selects a pivot and partitions the array into elements less than and greater than the pivot.
+Heap Sort – Uses a binary heap structure to sort elements efficiently.
+Introsort – Hybrid of quicksort, heapsort, and insertion sort (used in C++ STL).
+3. Linear Time Sorting Algorithms (Non-Comparison Based)
+These work faster than O(n log n) for specific data types.
+Counting Sort – Works well for small-range integers by counting occurrences.
+Radix Sort – Sorts numbers digit by digit using counting sort as a subroutine.
+Bucket Sort – Distributes elements into buckets, sorts each bucket, and merges them.
+Pigeonhole Sort – Similar to counting sort but used when the range is small.
+Bead Sort – Simulates the natural behavior of beads on rods to sort numbers.
+4. Hybrid Sorting Algorithms
+These combine different sorting techniques for better performance.
+Timsort – Hybrid of merge sort and insertion sort (used in Python and Java).
+Block Sort – A variation of merge sort that uses blocks for efficient merging.
+Library Sort (Gapped Insertion Sort) – A variation of insertion sort with gaps to improve performance.
+5. Adaptive & Optimized Sorting Algorithms
+These algorithms optimize based on input conditions.
+Comb Sort – An improved version of bubble sort that eliminates small swaps.
+Shell Sort – A generalization of insertion sort with gap sequences.
+Smooth Sort – A variation of heap sort with better adaptability.
+Strand Sort – Extracts and merges sorted sublists from the input.
+6. Parallel & Distributed Sorting Algorithms
+Used for sorting large-scale datasets in distributed systems.
+Bitonic Sort – A parallel sorting algorithm that works well on specialized hardware.
+Odd-Even Merge Sort – A parallel version of merge sort.
+Sample Sort – Used in distributed systems to divide the array into sampled partitions.
+Batcher’s Odd-Even Sort – Used in parallel computing environments.
+7. Specialized Sorting Algorithms
+Designed for specific use cases.
+Sleep Sort – Uses system sleep calls to sort numbers.
+Spaghetti Sort – Uses physical spaghetti sticks to sort numbers.
+Flashsort – Works well for uniformly distributed data.
+Patience Sorting – Inspired by card game patience; used in longest increasing subsequence problems.
+8. AI & Machine Learning-Based Sorting Algorithms
+Experimental algorithms using AI techniques.
+Neural Network Sorting – Uses deep learning to predict sorting orders.
+Quantum Bogo Sort – A theoretical sorting method using quantum superposition.
